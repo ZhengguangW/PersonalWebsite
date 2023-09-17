@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="navbar.js"> </script>
   <style>
 
 </style>
@@ -18,9 +19,9 @@
         <li> <a> Zhengguang Wang </a> </li>
       </ul>
       <ul class="right-ul">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="gadgets.html">Gadgets and Misc.</a></li>
+        <li><a href="index.html" id="index" onclick="update(this)">Home</a></li>
+        <li><a href="research.html" id="research" onclick="update(this)">Research</a></li>
+        <li><a href="gadgets.html" id="gadgets" onclick="update(this)">Gadgets and Misc.</a></li>
       </ul>
     </nav>
     <div class="Intro">
@@ -47,11 +48,12 @@
     <div class="Me"> 
     <h1> About Me</h1>
     <p class="Me-Text">I am a fourth-year Echols Scholar at the University of Virginia. 
-      I am now a member of UVA-MLSys where I work with Professor Judy Fox for the "AI For Science" project
-      and an undergarduate researcher at the Information and Language Processing (ILP) Lab at UVA led by Professor Yangfeng Ji.
-      I have a particular interest in applying computational methods into the study of social science. 
+      I am now a member of <a class="About-Me-link" target="_blank" href="https://github.com/UVA-MLSys">UVA-MLSys</a> where I work with <a class="About-Me-link" target="_blank" href="https://www.judyfox.online/">Professor Judy Fox</a> for the "AI For Science" project
+      and an undergarduate researcher at the <a class="About-Me-link" target="_blank" href="https://uvanlp.org/">Information and Language Processing (ILP) Lab</a> at UVA led by <a class="About-Me-link" href="https://yangfengji.net/" target="_blank">Professor Yangfeng Ji</a>.
+      I have a particular interest in applying computational methods empowered by modern CS developments into the study of social science. After graduation, I plan to pursue a Master Degree in Computer Science or in related fields.
       I speak English, Chinese, and French. 
     </p>
+    <p class="Me-Text"> Please check out my research and miscellaneous topics by clicking on my navigation bar！</p>
     </div>
 
     </div>
