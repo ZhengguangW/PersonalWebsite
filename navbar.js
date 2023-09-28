@@ -1,3 +1,15 @@
+
+window.onload = function() {
+  var cvIcon = document.getElementById('cv');
+
+  if (cvIcon) {
+    cvIcon.addEventListener('click', function(event) {
+      event.preventDefault();
+      window.open('Resume.pdf', '_blank');
+    });
+  }
+};
+
 function update(link) {
     console.log("yes");
     // Remove active class from all buttons
