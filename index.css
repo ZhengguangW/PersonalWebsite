@@ -93,6 +93,11 @@
     font-size: 16px;
     line-height: 1.5;
   }
+  .Gadget-Text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
   .right-ul a{
     transition: transform 0.3s ease;
