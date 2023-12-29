@@ -70,7 +70,7 @@
 
   .Me-Text{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
     margin-top: 5px;
   }
@@ -99,7 +99,7 @@
     line-height: 1.5;
   }
 
-  .right-ul a{
+  /* .right-ul a{
     transition: transform 0.3s ease;
   }
 
@@ -113,15 +113,15 @@
 
   .icons i:hover{
     transform: translateY(-5px);
-  }
+  } */
 
-  #cv {
+  .icons i {
     position: relative;
     cursor: pointer;
   }
   
   /* Styles for the line */
-  #cv::after {
+  .icons i::after {
     content: '';
     position: absolute;
     width: 0;
@@ -135,7 +135,7 @@
   }
   
   /* Animation on hover */
-  #cv:hover::after {
+  .icons i:hover::after {
     width: 100%;
   }
 
