@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="gadgets.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css2?family=Lora&display=swap'rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -22,16 +23,21 @@
       </ul>
     </nav>   
     <div class="gadget"> 
-      <h2> <a href="https://www.defilecalculator.com/" target="_blank">Defile Calculator </a></h2>
+      <h2> <a href="https://www.defilecalculator.com/" target="_blank" class="Research-Text-link">Defile Calculator </a></h2>
       <h3> 🌟A Web Application to solve the Defile problem in Hearthstone, a Boardgame of Blizzard</h3>
-        <p class="Gadget-Text"> I built this Defile Calculator together with my colleague <a href='https://jianingc0913.github.io'>Jianing Cai</a>, in which I designed and implemented the Dynamic Programming recursion Algorithm and logic of minion interactions. 
-            This Calculator takes the current board status and outputs the sequences of steps to reach a Defile-Clearable board. User can also click to see the 
-            board status lively after each step. 
-        </p> 
-        <p class="Gadget-Text">
-            I am a 5-year Hearthstone player, and I hope this Calculator will help Hearthstone players to make wise decisions when they have Defile card in hand! In the future, I plan to build a Machine Learning model so that 
-            the user wouldn't need to type in all the numbers but only upload a screenshot.
+      <div style="position: relative;">
+        <img src="title.jpg" alt="Calculator" class="top-right-image" style= "float:right; margin: 0 0 10px 10px; width: 50%"> 
+        <div class="container" style="clear:left;">
+          <p class="Gadget-Text"> I built this Defile Calculator together with my colleague <a class="Research-Text-link" href='https://jianingc0913.github.io'>Jianing Cai</a>, in which I designed and implemented the recursion Algorithm and logic of minion interactions. 
+              This Calculator takes the current board status and outputs the sequences of steps to reach a Defile-Clearable board. User can also click to see the 
+              board status lively after each step. 
           </p> 
+          <p class="Gadget-Text">
+            I am a 5-year Hearthstone player, and I hope this Calculator will help Hearthstone players to make wise decisions when they have Defile card in hand! In the future, I plan to build a Machine Learning model so that 
+              the user wouldn't need to type in all the numbers but only upload a screenshot.
+          </p>
+        </div>
+      </div> 
     </div>
   </body>
 </html>

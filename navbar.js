@@ -5,7 +5,7 @@ window.onload = function() {
   if (cvIcon) {
     cvIcon.addEventListener('click', function(event) {
       event.preventDefault();
-      window.open('Resume.pdf', '_blank');
+      window.open('resume.pdf', '_blank');
     });
   }
 };
