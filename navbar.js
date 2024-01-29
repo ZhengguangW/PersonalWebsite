@@ -11,7 +11,6 @@ window.onload = function() {
 };
 
 function update(link) {
-    console.log("yes");
     // Remove active class from all buttons
     document.querySelectorAll('.right-ul li a ').forEach(btn => btn.classList.remove('active'));
   
