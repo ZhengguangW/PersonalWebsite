@@ -2,12 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="research.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css2?family=Lora&display=swap'rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap">
     <script src="navbar.js"> </script>
+    <script src="research.js"> </script>
     <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-45FCT10JDE"></script>
   <script>
@@ -29,7 +32,56 @@
         <li><a href="research.html" onclick="update(this)" id="research">Research</a></li>
         <li><a href="gadgets.html" onclick="update(this)" id="gadgets">Gadgets and Misc.</a></li>
       </ul>
-    </nav>   
+    </nav>
+    <div class="grid-container">
+      <div class="grid-item" onclick="showDetails('research1.html')">
+          <img src="research1.jpg" alt="Image 1">
+          <p class="research-title">Interpreting County-Level COVID-19 Infections using Deep Learning for Time Series</p>
+          <a class="award" href="https://conferences.computer.org/icdh/2023/student_awards.html">2023 IEEE ICDH 3rd prize</a>
+          <div class="row">
+            <a class="website-link" href="https://zhengguangw.github.io/GPCE-COVID-Website/">[Project Website]</a>
+            <a class="website-link" href="https://arxiv.org/abs/2210.03258">[Paper]</a>
+          </div>
+      </div>
+      <div class="grid-item" onclick="showDetails('research2.html')">
+          <img src="research2.jpg" alt="Image 2">
+          <p class="research-title">Interpreting Time Series Transformer Models and Sensitivity Analysis of
+            Population Age Groups to COVID-19 Infections</p>
+          <a class="award" href="https://ai4ts.github.io/aaai2024">2024 AI4TS Workshop</a>
+          <div class="row">
+            <a class="website-link" href="https://github.com/UVA-MLSys/COVID-19-age-groups">[Code]</a>
+            <a class="website-link" href="https://arxiv.org/abs/2401.15119">[Paper]</a>
+          </div>
+      </div>
+      <div class="grid-item" onclick="showDetails('research3.html')">
+          <img src="research3.jpg" alt="Image 3">
+          <p class="research-title">Validation, Robustness, and Accuracy of Perturbation-Based Sensitivity Analysis Methods for Time-Series Deep Learning Models</p>
+          <a class="award" href="https://aaai.org/aaai-conference/undergraduate-consortium-program/">2024 AAAI Undergraduate Consortium</a>
+          <a class="website-link" href="https://arxiv.org/abs/2401.16521">[Paper]</a>
+      </div>
+      <div class="grid-item" onclick="showDetails('research4.html')">
+          <img src="research4.jpg" alt="Image 4">
+          <p class="research-title">Large Language Model Fine-Tuning Codebase</p>
+          <p class="website-link" href="https://github.com/jiyfeng/llm-finetuning">[Codebase Link]</p>
+      </div>
+      <div class="grid-item" onclick="showDetails('research5.html')">
+          <img src="research5.jpg" alt="Image 5">
+          <p class="research-title">Consistency of Large Language Model's political leanings</p>
+          <p class="website-link"> </p>
+      </div>
+      <div class="grid-item" onclick="showDetails('research6.html')">
+          <img src="research6.jpg" alt="Image 6">
+          <p class="research-title">Hallucination and Creative Writing: two sides of one coin</p>
+          <p class="website-link"> </p>
+      </div>
+  </div>
+
+  <div id="details-container" style="display: none;">
+    <button  class="back-button" onclick="showGrid()">Back</button>
+    <div id="details-content"></div>
+  </div>
+
+    <!-- This is a comment in HTML
     <div class="research"> 
       <h1 class="research-group"> Information and Language Processing Lab</h2>
         <p class="Research-Text"> This lab working on natural language processing (NLP) is led by Professor Yangfeng Ji, where I am an current undergraduate student researcher since June, 2023. 
@@ -83,5 +135,6 @@
           Methods for Time-Series Deep Learning Models</em> </a> is accepted to the AAAI'24 Undergrduate Consortium. 
       </p>
     </div>
+    -->
   </body>
 </html>

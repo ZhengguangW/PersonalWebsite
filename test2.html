@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test2.css">
+    <title>Grid Example</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" onclick="showDetails('Info 1')">
+            <img src="image1.jpg" alt="Image 1">
+            <p>Description 1</p>
+        </div>
+        <div class="grid-item" onclick="showDetails('Info 2')">
+            <img src="image2.jpg" alt="Image 2">
+            <p>Description 2</p>
+        </div>
+        <div class="grid-item" onclick="showDetails('Info 3')">
+            <img src="image3.jpg" alt="Image 3">
+            <p>Description 3</p>
+        </div>
+        <div class="grid-item" onclick="showDetails('Info 4')">
+            <img src="image4.jpg" alt="Image 4">
+            <p>Description 4</p>
+        </div>
+        <div class="grid-item" onclick="showDetails('Info 5')">
+            <img src="image5.jpg" alt="Image 5">
+            <p>Description 5</p>
+        </div>
+        <div class="grid-item" onclick="showDetails('Info 6')">
+            <img src="image6.jpg" alt="Image 6">
+            <p>Description 6</p>
+        </div>
+    </div>
+
+    <div id="details-container" style="display: none;">
+        <button onclick="showGrid()">Back to Grid</button>
+        <div id="details-content"></div>
+    </div>
+
+    <script src="test2.js"></script>
+</body>
+</html>
