@@ -165,6 +165,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
 
   color: #fff;
   background: #E57200;
